@@ -1,0 +1,43 @@
+camera_parameters oeepe_test dtm epoch_2 rmk_top
+
+
+ focal_length:           152.844 mm  
+
+ coordinates in mm referring to PPS
+ ==================================
+                                x              y  
+ PPA                           0.002         -0.005 
+ fiducial:               1   113.016          0.002
+ fiducial:               2  -112.977         -0.002
+ fiducial:               3     0.013        112.990
+ fiducial:               4     0.008       -113.008
+ fiducial:               5   113.008        112.995
+ fiducial:               6  -112.989       -113.006
+ fiducial:               7  -112.986        112.988
+ fiducial:               8   113.011       -113.004
+
+
+                            
+                                    |+y        
+                                    |
+                   +---+------------+-----------+                    
+                   |   | 7          |3        5 |
+                   |   |            |           |
+                   |   |            |           |
+                   |   |            |           |
+                   |   | 2          +-----------+-----
+                   |   |                      1 |    +x
+                   |   ++                       |
+                   |    |                       |
+                   |    | 6         4         8 |
+                   +----+-----------------------+
+
+
+
+
+ symmetric radial lens distortion values 
+ =======================================
+ distortion_spacing [mm]: 10 20 30 40 50 60 70 80 90 100 110 120 130 140 150
+ distortions [Mikron]   :  0  1  1  2  1  2  2  1 -1  -2  -2  -3   0   1   1
+
+

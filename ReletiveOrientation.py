@@ -271,12 +271,7 @@ class Collinearity_Equation:
 
         xy_pixcel_L=self.Sensors_L.Mapping_to_Pixcel(np.array(Fx_L),np.array(Fy_L))
         xy_pixcel_R=self.Sensors_L.Mapping_to_Pixcel(np.array(Fx_R),np.array(Fy_R))
-        # xy_pixcel_R_x=(self.projective_matrix_R[0]*Fx_R+self.projective_matrix_R[1]*Fy_R+self.projective_matrix_R[2])/(self.projective_matrix_R[6]*Fx_R+self.projective_matrix_R[7]*Fy_R +1)
-        # xy_pixcel_R_y=(self.projective_matrix_R[3]*Fx_R+self.projective_matrix_R[4]*Fy_R+self.projective_matrix_R[5])/(self.projective_matrix_R[6]*Fx_R+self.projective_matrix_R[7]*Fy_R +1)
-        # print(str(Fx_R)+str(Fy_R)) 
-        # print(xy_pixcel_L)
-      #  print(xy_pixcel_L)
-     #   print(xy_pixcel_R)
+
         methods = ['cv2.TM_CCOEFF', 'cv2.TM_CCOEFF_NORMED', 'cv2.TM_CCORR','cv2.TM_CCORR_NORMED',     'cv2.TM_SQDIFF', 'cv2.TM_SQDIFF_NORMED']
        # try:
         if True:

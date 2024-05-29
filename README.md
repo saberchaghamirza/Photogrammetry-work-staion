@@ -1,1 +1,1 @@
-rau GUI.py and use it
+Run GUI.py and use it
